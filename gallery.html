@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <style>
+        body{
+            background-image: url(https://t4.ftcdn.net/jpg/03/07/20/19/360_F_307201913_pCsbCh4faog4rE3s4J8oKcmYxAUbFVKu.jpg);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #logo {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .nav {
+            background-color: #333333;
+            padding: 10px;
+        }
+        .nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.2s ease;
+        }
+        .nav a:hover {
+            color: #cccccc;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 10px;
+            justify-content: center;
+        }
+        .news-paper {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 250px;
+        }
+        .news-paper img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .news-paper p {
+            font-size: 16px;
+            margin: 10px;
+            color: #666666;
+        }
+        .news-paper:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            transform: scale(1.05);
+        }
+        .undeline:hover h1{
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            position: initial;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="https://images-platform.99static.com//RBC1HQR1eILYpMAuxxmSEAflBzQ=/114x109:1361x1356/fit-in/500x500/99designs-contests-attachments/139/139158/attachment_139158765" alt="Logo">
+    </header>
+    <nav class="nav">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="workfee.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="a.html">Contact</a>
+    </nav>
+    <section class="gallery">
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Out-side-Jun24_002-348x232.jpg" alt="Image 1">
+            <center><h1>“Nature's Not Judging Us”: On Being Out, Outside"<br>BY KC HOARD</h1></center>
+            <p>The modern way of understanding our living planet has failed us. It's time for something queerer</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/Holland_Wildfire_1800-348x232.jpg" alt="Image 2">
+            <center><h1>Wildfire Season<br>BY EVA HOLLAND</h1></center>
+            <p>The North's light infrastructure makes wildfires less likely. It also makes them more dangerous</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Web-Homeless_Jul24-001-348x232.jpg" alt="Image 3">
+            <center><h1>Canada's Emergency Shelters Are Failing<br>BY RHIANNON RUSSELL</h1></center>
+            <p>Four deaths at a Whitehorse facility underscore the need for housing reform</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Web-Montreal_Jun24-002-348x232.jpg" alt="Image 4">
+            <center><h1>Can Montreal Save Its Soul Amidst Gentrification?<br>BY TOULA DRIMONIS</h1></center>
+            <p>Evictions, property flips, and the whims of policy makers and landlords are gutting the city</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Web-PP_Jun24-003-348x232.jpg" alt="Image 5">
+            <center><h1>Who Is the Real Pierre Poilievre?<br>BY ANDREW LAWTON</h1></center>
+            <p>The growing conservative uncertainty over Poilievre's stance on moral issues</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Web-Trucker_Jun24-002-348x232.jpg" alt="Image 6">
+            <center><h1>Ottawa's Response to the Trucker Protest Was Doomed from the Start<br>BY STEPHEN MAHER</h1></center>
+            <p>The “Freedom Convoy” shook Canada's capital—and exposed our divisions</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/Woods_GenderNeutralClothing_cg_1800-348x232.jpeg" alt="Image 7">
+            <center><h1>What “Gender-Neutral” Fashion Gets Wrong<br>BY MEL WOODS</h1></center>
+            <p>Brands like H&M and Old Navy are rolling out ungendered clothing lines. Just because something isn't explicitly for “men” or “women” doesn’t mean it has to be boring as sin</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/Expert-Supply-Chain-735-348x232.jpg" alt="Image 8">
+            <center><h1>Ask a Supply Chain Expert: Are Product Shortages Our New Normal?<br>BY HARISH KRISHNAN</h1></center>
+            <p>Tis the season to unpack the pandemic's impact on production and distribution</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Web-Modi_Jun24-003-348x232.jpg" alt="Image 9">
+            <center><h1>India's Election Shake-Up Will Impact Canada<br>BY THE WALRUS STAFF</h1></center>
+            <p>Narendra Modi's weakened third term forces Trudeau's government to rethink its complicated relationship with India</p>
+        </div>
+        <div class="news-paper">
+            <img src="https://walrus-assets.s3.amazonaws.com/img/WAL_Web-China_May24-007-348x232.jpg" alt="Image 10">
+            <center><h1>Canada's Universities Are a Pipeline for Chinese Military Technology<br>BY JONATHAN MANTHORPE</h1></center>
+            <p>How hundreds of Chinese researchers across the country were identified as undercover scientists</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Gallery Page. All Rights Reserved.</p>
+        <p>
+            <a href="workfee.html">Home</a> |
+            <a href="#">Contact</a> |
+            <a href="#">Privacy Policy</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
